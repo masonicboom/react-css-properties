@@ -1,10 +1,5 @@
 
 /**
- * Gets or sets a value that specifies how excess space is distributed (along the axis defined by the -ms-flex-direction property) between child elements of the object.
- */
-MsFlexPack?: any;
-
-/**
  * Aligns a flex container's lines within the flex container when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis.
  */
 alignContent?: any;

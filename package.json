@@ -1,0 +1,17 @@
+{
+  "name": "react-css-properties",
+  "version": "1.0.0",
+  "description": "reference.csv comes from http://docs.webplatform.org/w/index.php?title=Special:Ask&offset=0&limit=500&q=%5B%5BCategory%3ACSS+Properties%5D%5D&p=format%3Dtemplate%2Flink%3Dnone%2Fsearchlabel%3DSee-20more-20pages...%2Ftemplate%3DSummary_Table_Body%2Fintrotemplate%3DSummary_Table_Header%2Foutrotemplate%3DSummary_Table_Footer&po=%3FPage+Title%0A%3FSummary%0A#, and is used under license (http://docs.webplatform.org/wiki/Template:CC-by-3.0).",
+  "main": "process.js",
+  "dependencies": {
+    "camelize": "^1.0.0",
+    "csv-parse": "^1.0.0",
+    "stream-transform": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

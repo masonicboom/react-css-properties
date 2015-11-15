@@ -31,12 +31,27 @@ parse(d, function(err, data) {
 	for (var row of data) {
 		if (seenHeader) {
 			var propertyName = row[0];
+			var summary = row[1];
+
+			if (summary != "") {
+				var lines = summary.split("\n");
+				var comment = "/**\n";
+				for (var l of lines) {
+					comment += " * " + l + "\n";
+				}
+				comment += " */";
+			}
+
 			var p = camelize(propertyName);
 			
 			if (existingProperties[p]) {
 				continue;
 			}
 			
+			console.log("")
+			if (summary != "") {
+				console.log(comment);
+			}
 			console.log(`${p}?: any;`);
 		}
 		seenHeader = true;

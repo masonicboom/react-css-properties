@@ -1,5 +1,4 @@
 API Name,Summary
-font-variant,"Selects a normal, or small-caps face from a font family. Also possible by using the font shorthand."
 -ms-flex-pack,Gets or sets a value that specifies how excess space is distributed (along the axis defined by the -ms-flex-direction property) between child elements of the object.
 align-content,"Aligns a flex container's lines within the flex container when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis."
 align-items,"Sets the default alignment in the cross axis for all of the flex container's items, including anonymous flex items, similarly to how justify-content aligns items along the main axis."
@@ -215,7 +214,7 @@ shape-outside,"Declares a shape around which text should be wrapped, with possib
 speak,The speak property determines whether or not a speech synthesizer will read aloud the contents of an element.
 speak-as,"The speak-as property determines how the speech synthesizer interprets the content: words as whole words or as a sequence of letters, numbers as a numerical value or a sequence of digits, punctuation as pauses in speech or named punctuation characters."
 tab-size,The tab-size CSS property is used to customise the width of a tab (U+0009) character.
-table layout,"The 'table-layout' property controls the algorithm used to lay out the table cells, rows, and columns."
+table-layout,"The 'table-layout' property controls the algorithm used to lay out the table cells, rows, and columns."
 text-align,"The text-align CSS property describes how inline content like text is aligned in its parent block element. text-align does not control the alignment of block elements itself, only their inline content."
 text-align-last,The text-align-last CSS property describes how the last line of a block element or a line before line break is aligned in its parent block element.
 text-decoration,"The text-decoration CSS property is used to set the text formatting to underline, overline, line-through or blink. 

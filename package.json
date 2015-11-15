@@ -5,8 +5,7 @@
   "main": "process.js",
   "dependencies": {
     "camelize": "^1.0.0",
-    "csv-parse": "^1.0.0",
-    "stream-transform": "^0.1.1"
+    "csv-parse": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
